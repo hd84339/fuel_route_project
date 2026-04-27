@@ -1,4 +1,7 @@
-venv/
-db.sqlite3
+.env
 __pycache__/
 *.pyc
+venv/
+data/
+route_api/processed_stations.json
+output.txt

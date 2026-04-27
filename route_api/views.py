@@ -184,7 +184,9 @@ def route_api_view(request):
             "station": best["name"],
             "mile": round(best["mile"], 2),
             "price": best["price"],
-            "fuel_needed": round(fuel_needed, 2)
+            "fuel_needed": round(fuel_needed, 2),
+            "lat": best["lat"],
+            "lon": best["lon"]
         })
 
         current = best["mile"]
